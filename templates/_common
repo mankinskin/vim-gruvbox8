@@ -142,7 +142,7 @@ Error                            red    bg0     bold,reverse
 Exception                        red    none
 Float                            purple none
 Function                         green  none    bold
-Identifier                       blue   none
+Identifier                       fg1   none
 Ignore                           fg     none
 Include                          aqua   none
 Keyword                          red    none
