@@ -101,6 +101,23 @@ clojureUnquote                   yellow none
 cOperator                        purple none
 cStructure                       orange none
 ; }}}
+; Rust {{{
+rsForeignConst     -> LibraryIdent
+rsForeignFunc      -> LibraryFunc
+rsForeignType      -> LibraryType
+rsFuncDef          -> FunctionDef
+rsIdentDef         -> IdentifierDef
+rsLibraryConst     -> LibraryIdent
+rsLibraryFunc      -> LibraryFunc
+rsLibraryType      -> LibraryType
+rsLifetimeDef      -> IdentifierDef
+rsSpecialLifetime  -> LibraryIdent
+rsUserConst        -> LocalIdent
+rsUserFunc         -> LocalFunc
+rsUserLifetime     -> LocalIdent
+rsUserMethod       -> LibraryFunc
+rsUserType         -> LocalType
+; }}}
 ; Python {{{
 pythonBuiltin                    orange none
 pythonBuiltinObj                 orange none
