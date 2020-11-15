@@ -133,8 +133,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi String guifg=#b8bb26 guibg=NONE gui=italic cterm=italic
     hi Structure guifg=#8ec07c guibg=NONE gui=NONE cterm=NONE
     hi Todo guifg=fg guibg=#1d2021 gui=bold,italic cterm=bold,italic
-    hi Type guifg=#fabd2f guibg=NONE gui=NONE cterm=NONE
-    hi Typedef guifg=#fabd2f guibg=NONE gui=NONE cterm=NONE
+    hi Type guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
+    hi Typedef guifg=#d3869b guibg=NONE gui=NONE cterm=NONE
     hi Underlined guifg=#83a598 guibg=NONE gui=underline cterm=underline
     hi CursorIM guifg=NONE guibg=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse
     if !s:italics
@@ -830,8 +830,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi String guifg=#79740e guibg=NONE gui=italic cterm=italic
   hi Structure guifg=#427b58 guibg=NONE gui=NONE cterm=NONE
   hi Todo guifg=fg guibg=#f9f5d7 gui=bold,italic cterm=bold,italic
-  hi Type guifg=#b57614 guibg=NONE gui=NONE cterm=NONE
-  hi Typedef guifg=#b57614 guibg=NONE gui=NONE cterm=NONE
+  hi Type guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
+  hi Typedef guifg=#8f3f71 guibg=NONE gui=NONE cterm=NONE
   hi Underlined guifg=#076678 guibg=NONE gui=underline cterm=underline
   hi CursorIM guifg=NONE guibg=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse
   if !s:italics
@@ -1511,8 +1511,8 @@ if s:t_Co >= 256
     hi String ctermfg=142 ctermbg=NONE cterm=italic
     hi Structure ctermfg=107 ctermbg=NONE cterm=NONE
     hi Todo ctermfg=fg ctermbg=234 cterm=bold,italic
-    hi Type ctermfg=214 ctermbg=NONE cterm=NONE
-    hi Typedef ctermfg=214 ctermbg=NONE cterm=NONE
+    hi Type ctermfg=175 ctermbg=NONE cterm=NONE
+    hi Typedef ctermfg=175 ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=109 ctermbg=NONE cterm=underline
     hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
     if !s:italics
@@ -2149,8 +2149,8 @@ if s:t_Co >= 256
   hi String ctermfg=100 ctermbg=NONE cterm=italic
   hi Structure ctermfg=29 ctermbg=NONE cterm=NONE
   hi Todo ctermfg=fg ctermbg=229 cterm=bold,italic
-  hi Type ctermfg=172 ctermbg=NONE cterm=NONE
-  hi Typedef ctermfg=172 ctermbg=NONE cterm=NONE
+  hi Type ctermfg=126 ctermbg=NONE cterm=NONE
+  hi Typedef ctermfg=126 ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=23 ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
   if !s:italics
@@ -2785,8 +2785,8 @@ if s:t_Co >= 16
     hi String ctermfg=Green ctermbg=NONE cterm=italic
     hi Structure ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Todo ctermfg=fg ctermbg=Black cterm=bold,italic
-    hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
-    hi Typedef ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi Type ctermfg=Magenta ctermbg=NONE cterm=NONE
+    hi Typedef ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
     hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
     if !s:italics
@@ -2900,8 +2900,8 @@ if s:t_Co >= 16
   hi String ctermfg=Green ctermbg=NONE cterm=italic
   hi Structure ctermfg=Cyan ctermbg=NONE cterm=NONE
   hi Todo ctermfg=fg ctermbg=White cterm=bold,italic
-  hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
-  hi Typedef ctermfg=Yellow ctermbg=NONE cterm=NONE
+  hi Type ctermfg=Magenta ctermbg=NONE cterm=NONE
+  hi Typedef ctermfg=Magenta ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
   if !s:italics
@@ -3013,8 +3013,8 @@ if s:t_Co >= 8
     hi String ctermfg=Green ctermbg=NONE cterm=italic
     hi Structure ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Todo ctermfg=fg ctermbg=Black cterm=bold,italic
-    hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
-    hi Typedef ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi Type ctermfg=Magenta ctermbg=NONE cterm=NONE
+    hi Typedef ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
     hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
     if !s:italics
@@ -3124,8 +3124,8 @@ if s:t_Co >= 8
   hi String ctermfg=Green ctermbg=NONE cterm=italic
   hi Structure ctermfg=Cyan ctermbg=NONE cterm=NONE
   hi Todo ctermfg=fg ctermbg=White cterm=bold,italic
-  hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
-  hi Typedef ctermfg=Yellow ctermbg=NONE cterm=NONE
+  hi Type ctermfg=Magenta ctermbg=NONE cterm=NONE
+  hi Typedef ctermfg=Magenta ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
   hi CursorIM ctermfg=NONE ctermbg=NONE cterm=reverse
   if !s:italics

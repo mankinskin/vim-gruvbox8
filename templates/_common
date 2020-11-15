@@ -161,8 +161,8 @@ Special                          orange none    italic
 String                           green  none    italic
 Structure                        aqua   none
 Todo                             fg     bg0     bold,italic
-Type                             yellow none
-Typedef                          yellow none
+Type                             purple none
+Typedef                          purple none
 Underlined                       blue   none    underline
 CursorIM                         none   none    reverse
 ; }}}
